@@ -42,7 +42,7 @@ public class TestCommand {
 		
 		updatePointCmd.execute();
 		System.out.println(p1);
-		//p1 = p2;
+		p1 = p2;
 		updatePointCmd.unexecute();
 		System.out.println(p1);
 		
